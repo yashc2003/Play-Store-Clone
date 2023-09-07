@@ -107,7 +107,7 @@ body{
    height: 50px;
    background-color: white;
    position: relative;
-   z-index: 998;
+   z-index: 898;
 }
 .header_2_Apps{
    width: 220px;
@@ -161,3 +161,65 @@ body{
    border-bottom: solid 2px #689f38;
 
 }
+
+
+/*FOOTER*/
+
+footer {
+   background: #16222A;
+   background: -webkit-linear-gradient(59deg, #3A6073, #16222A);
+   background: linear-gradient(59deg, #3A6073, #16222A);
+   
+   margin-top:100px;
+ }
+ 
+ footer a {
+   color: #fff;
+   font-size: 14px;
+   transition-duration: 0.2s;
+ }
+ 
+ footer a:hover {
+   color: #FA944B;
+   text-decoration: none;
+ }
+ 
+ .copy {
+   font-size: 12px;
+   padding: 10px;
+   border-top: 1px solid #FFFFFF;
+ }
+ 
+ .footer-middle {
+   padding-top: 2em;
+   color: white;
+ }
+ .blackplay{
+     margin-top: 90px;
+     margin-left: 100px;
+ }
+ body {
+   padding-top: 2rem;
+}
+
+@media (min-width: 576px) {
+   .card-group.card-group-scroll {
+       overflow-x: auto;
+       flex-wrap:nowrap;
+       
+   }
+}
+
+.card-group.card-group-scroll > .card {
+   flex-basis: 35%;
+}
+ @media (min-width: 1200px) {
+   .row{
+       justify-content: space-between;
+ }
+ 
+}
+
+ 
+ 
+
