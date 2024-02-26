@@ -1,6 +1,7 @@
   
   
- <br>
+
+
  <br>
 <img src="./Gplogoo.png"  width="22%" height="22%"><br>
  
@@ -8,13 +9,12 @@
 
 
 
-<br>
+
+
 
 <span style="color:#0fedc9">
 <h1>google playstore  </h1>
 </span>
-
-
 
 
 

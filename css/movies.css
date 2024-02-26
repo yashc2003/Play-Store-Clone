@@ -23,3 +23,203 @@
    background-color: rgb(224, 224, 224);
    border-radius: 5px;
 }
+
+
+body{
+   margin: 0;
+   background-color: rgb(238, 238, 238);
+   font-family: "Roboto",Arial,sans-serif;
+   /* font-size: 18px; */
+   overflow-x: hidden;
+   overflow-y: auto;
+}
+.header1{
+   background-color: rgb(238, 238, 238);
+   width: 100%;
+   height: 60px;
+   display: flex;
+   flex-direction: row;
+   z-index: 999;
+}
+.Gpicon{
+   width: 200px;
+   margin: 10px;
+   float: left ;
+   margin-left: 30px;
+   margin-right: 20px;
+   
+}
+.Sdiv{
+   padding-top: 15px;
+   float: left;
+   
+}
+.searchbox{
+   width: 600px;
+   height: 25px;
+   padding-top:1px;
+   margin-bottom: 15px;
+   border: solid 1px gray;
+   font-size: 16px;
+   margin-right: -3px;
+}
+.searchicon{
+   color: white;
+   background-color: blue;
+   font-size: 15px;
+   
+}
+.Sbut{
+   background-color: blue;
+   width: 50px;
+   height: 28px;
+   border: none;
+   cursor: pointer;
+}
+.cube1{
+    margin-top: 15px; 
+   margin-left: 870px;
+   font-size: 25px;
+   
+}
+.profilelogo{
+   width: 40px;
+   height: 40px;
+   background-color: rgb(25, 93, 219);
+   border-radius: 50% ;
+   margin-top: 5px ;
+   margin-left: 15px;
+}
+.profilelogo h3{
+   color: white;
+   padding-left: 12px ;
+   font-size: 25px;
+   margin-top: 5px;
+   text-size-adjust: 100%;
+}
+
+
+
+
+
+.header2{
+   width: 100%;
+   height: 50px;
+   background-color: white;
+   position: relative;
+   z-index: 898;
+}
+.header_2_Apps{
+   width: 220px;
+   height: 48px;
+   background-color: #689f38;
+   color: white;
+   text-align: center;
+   font-size: 20px;
+   padding-top: 10px;
+   font-weight: lighter;
+   float: left;
+   cursor: pointer;
+   
+}
+.box_4{
+   margin-right: 20px;
+}
+.header_2_Category{
+   height: 50px;
+   width: 140px;
+   text-align: center;
+   padding-top: 15px;
+   color:rgb(165, 165, 165) ;
+   margin-left: 30px;
+   float: left;
+   cursor: pointer;;
+}
+.header_2_Category:hover{
+   background-color: rgb(221, 221, 221);
+   color: rgb(3,201,43);
+   font-weight: 600;
+
+   border-bottom: solid 2px #689f38;
+
+
+
+}
+.header_2_home{
+   width: 110px;
+   height: 49px;
+   float: left;
+   text-align: center;
+   color: rgb(168, 168, 168);
+   padding-top: 15px;
+}
+.header_2_home:hover{
+   background-color: rgb(218, 218, 218);
+   color: rgb(3, 201, 43);
+   font-weight: 600;
+
+   border-bottom: solid 2px #689f38;
+
+}
+
+
+/*FOOTER*/
+
+footer {
+   background: #16222A;
+   background: -webkit-linear-gradient(59deg, #3A6073, #16222A);
+   background: linear-gradient(59deg, #3A6073, #16222A);
+   
+   margin-top:100px;
+ }
+ 
+ footer a {
+   color: #fff;
+   font-size: 14px;
+   transition-duration: 0.2s;
+ }
+ 
+ footer a:hover {
+   color: #FA944B;
+   text-decoration: none;
+ }
+ 
+ .copy {
+   font-size: 12px;
+   padding: 10px;
+   border-top: 1px solid #FFFFFF;
+ }
+ 
+ .footer-middle {
+   padding-top: 2em;
+   color: white;
+ }
+ .blackplay{
+     margin-top: 90px;
+     margin-left: 100px;
+ }
+ body {
+   padding-top: 2rem;
+}
+
+@media (min-width: 576px) {
+   .card-group.card-group-scroll {
+       overflow-x: auto;
+       flex-wrap:nowrap;
+       
+   }
+}
+
+.card-group.card-group-scroll > .card {
+   flex-basis: 35%;
+}
+ @media (min-width: 1200px) {
+   .row{
+       justify-content: space-between;
+ }
+ 
+}
+
+ 
+ 
+
